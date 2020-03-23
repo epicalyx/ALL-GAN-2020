@@ -8,6 +8,13 @@
 
 An Acute Lymphoblastic Leukemia classifier programmed in Python using Keras. Project by research intern [Taru Jain](https://www.petermossamlallresearch.com/students/student/taru-jain/profile "Taru Jain"), and [Amita Kapoor](https://www.leukemiaresearchassociation.ai/team/amita-kapoor/profile "Amita Kapoor").
 
+This work explores a special type of Generative Adversarial Network ([SinGAN](https://arxiv.org/pdf/1905.01164.pdf)) for augmenting a medical dataset for classification of Acute Lymphoblastic Leukemia cells. The merits of SinGAN with and without other data augmentation techniques have been tested. While other GANs might not work that well for sensitive healthcare datasets, this GAN seems to work quite well by generating images similar to original ones.
+
+**We have discussed all the ethical concerns and biases that may be present in our current research work, and interpreted the results accordingly.**
+
+## Dataset:
+The dataset is made available [here](https://drive.google.com/drive/folders/1MbC0fJA5g2B5bGEzNHx-aw1fLWOS9KjL?usp=sharing)
+
 &nbsp;
 
 # Getting Started 
@@ -15,8 +22,12 @@ An Acute Lymphoblastic Leukemia classifier programmed in Python using Keras. Pro
 To get started make sure your system meets the following requirements:
 
 ## Hardware
+Google Colab GPU
 
 ## Software
+* Google Colab
+* Keras (ver 2.2.5)
+* Tensorflow (ver 1.15.0)
 
 &nbsp;
 
@@ -49,6 +60,10 @@ In this project, [ALL-IDB2](https://homes.di.unimi.it/scotti/all/#datasets) is u
 # Use this project
 
 Follow the guides below to build your Acute Lymphoblastic Leukemia Keras Classifier. 
+* Clone the repo
+* Open the ALLKGAN2020 notebook in google colab and change runtime to GPU
+* Dataset has been shared via Google Drive Link above
+* Explore and run the notebook!
 
 &nbsp;
 
